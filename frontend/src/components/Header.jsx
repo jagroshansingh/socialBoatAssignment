@@ -3,23 +3,29 @@ import axios from "axios";
 import "./css/Header.css";
 
 export const Header = ({ setData }) => {
-
   const handleSearch = (el) => {
-    if (el.target.value == "") {
-    } else {
       axios({
         method: "get",
         url: "https://asia-south1-socialboat-dev.cloudfunctions.net/assignmentVideos",
         params: { q: el.target.value, numResults: 5 },
       })
-        .then((res) => setData(res.data.results))
-        .catch((err) => console.log(err));
-    }
+        .then((res) => {
+            setData(res.data.results)
+        })
+        .catch((err) => {
+            console.log(err)
+            setData([])
+        });
   };
   return (
     <>
       <div id="headerContainer">
-        <div>Logo</div>
+        <div>
+          <img
+            src="https://ik.imagekit.io/socialboat/Component_6__1__CgPWY-2O0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663242315232"
+            alt=""
+          />
+        </div>
         <div>
           <input type="search" name="" id="" onChange={handleSearch} />
         </div>

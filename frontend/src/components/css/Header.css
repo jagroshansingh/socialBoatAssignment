@@ -4,6 +4,12 @@
     padding: 2% 5%;
     border: 1px solid;
 }
+#headerContainer>div{
+    border: 1px solid;
+}
+img{
+    width: 2em;
+}
 input{
     border-radius: 10px;
 }
