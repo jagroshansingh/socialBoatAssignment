@@ -1,0 +1,25 @@
+#cardContainer{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#tags{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-style: italic;
+    /* flex-wrap: wrap; */
+}
+#tags>p{
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+}
+video{
+    border: 0px solid;
+    height: 60%;
+    object-fit:cover;
+    border-radius: 15px;
+}
