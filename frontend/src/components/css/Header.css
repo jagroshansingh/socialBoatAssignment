@@ -1,0 +1,9 @@
+#headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    border: 1px solid;
+}
+input{
+    border-radius: 10px;
+}
