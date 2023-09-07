@@ -3,10 +3,10 @@ const { connection } = require('./db');
 const { authRouter } = require('./Routes/AuthRoutes');
 const cors=require('cors')
 const app=express();
-const port=8555
+const port=8555;
 
 app.use(cors())
-// app.use('/auth',authRouter)
+app.use('/auth',authRouter)
 
 
 

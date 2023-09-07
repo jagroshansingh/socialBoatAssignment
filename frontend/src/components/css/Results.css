@@ -3,6 +3,9 @@
     grid-template-columns: repeat(3,1fr);
     gap:2%;
 }
+#ResultContainer *{
+    border: 1px solid;
+}
 
 @media screen and (max-width:450px){
     #ResultContainer{
