@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2% 5%;
-    border: 1px solid;
+    border: 0px solid;
     position: sticky;
     top: 0%;
     backdrop-filter: blur(5px);
@@ -10,11 +10,13 @@
     z-index: 10;
 }
 #headerContainer>div{
-    border: 1px solid;
+    border: 0px solid;
 }
 img{
     width: 2em;
 }
 input{
     border-radius: 10px;
+    width: 200px;
+    height: 30px;
 }

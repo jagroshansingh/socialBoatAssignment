@@ -1,12 +1,12 @@
 #cardContainer{
-    border: 1px solid;
+    border: 0px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 #tags{
     display: flex;
-    border: 1px solid;
+    border: 0px solid;
     justify-content: space-evenly;
     font-weight: bolder;
     font-style: italic;
